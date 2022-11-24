@@ -25,7 +25,8 @@
   "homepage": "https://github.com/Tema19/fullstack-javascript-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
