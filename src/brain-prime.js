@@ -16,6 +16,7 @@ export function primeGame() {
                 return false 
             } else {
                 console.log("Wrong input!");
+                return false 
             }
         }
 }
