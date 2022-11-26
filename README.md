@@ -8,3 +8,6 @@ https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0
 
 lesson 6:
 https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im
+
+Lesson 7: 
+https://asciinema.org/a/WZ09ZCVaqSTr2Z8A6k2CblbwS

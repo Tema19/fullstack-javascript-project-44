@@ -1,14 +1,13 @@
 import readlineSync from 'readline-sync';
-export function calcGame() {
-    console.log('What is the result of the expression?');
+import { gcd } from "../src/gcd-func.js";
+export function gcdGame() {
+    console.log('Find the greatest common divisor of given numbers.');
     for(let i = 0; i < 3; i++){
     const number1 = Math.floor(Math.random() * 100);
     const number2 = Math.floor(Math.random() * 100);
-    const operations = ["+", "-", "*"];
-    let formula = number1 + operations[Math.floor(Math.random() * operations.length)] + number2;
-    const result = eval(formula);
-    console.log('Question: ' + formula);
+    console.log('Question: ' + number1 + " " + number2);
     const answer = readlineSync.question('Your answer: ');
+    let result = gcd(number1, number2);
     if (answer == result) {
         console.log("Correct!");
     } else {
