@@ -11,7 +11,7 @@ export function progressionGame() {
         let ind = Math.floor(Math.random() * 7);
         let result = list[ind]; 
         list[ind] = '..';
-    console.log('Question: ' + list);
+    console.log('Question: ' + list.join(" "));
     const answer = readlineSync.question('Your answer: ');
     if (answer == result) {
         console.log("Correct!");
