@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { gcd } from './gcd-func.js';
+import gcd from './gcd-func.js';
 
 export default function gcdGame() {
   console.log('Find the greatest common divisor of given numbers.');

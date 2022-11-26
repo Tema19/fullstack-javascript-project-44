@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { prime } from './prime-func.js';
+import prime from './prime-func.js';
 
 export default function primeGame() {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
