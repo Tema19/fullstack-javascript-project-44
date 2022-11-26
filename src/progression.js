@@ -20,4 +20,4 @@ export function progressionGame() {
         return false;
     }
 }
-};
+}

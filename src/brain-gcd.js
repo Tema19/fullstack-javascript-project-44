@@ -15,4 +15,4 @@ export function gcdGame() {
         return false;
     }
 }
-};
+}

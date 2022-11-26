@@ -5,4 +5,4 @@ export const game_3 = (Game) => {
     if (Game() == false) 
     {return console.log("Let's try again, " + name + "!");}
     return console.log("Congratulations, " + name + "!");
-};
+}

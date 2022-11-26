@@ -18,4 +18,4 @@ export function primeGame() {
                 console.log("Correct!");
             }
         }
-};
+}

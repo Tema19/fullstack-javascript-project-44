@@ -7,4 +7,4 @@ export function gcd (x,y){
      x = t;
   }
   return x;
-  };
+  }

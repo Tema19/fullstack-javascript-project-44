@@ -18,4 +18,4 @@ export const evenGame = () => {
         return false;
     }
 }    
-};
+}
