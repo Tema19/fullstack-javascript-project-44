@@ -1,10 +1,10 @@
-export function gcd (x,y){
-    x = Math.abs(x);
-     y = Math.abs(y);
-   while(y) {
-     var t = y;
-     y = x % y;
-     x = t;
+export default function gcd(x, y) {
+  x = Math.abs(x);
+  y = Math.abs(y);
+  while (y) {
+    const t = y;
+    y = x % y;
+    x = t;
   }
   return x;
-  }
+}
