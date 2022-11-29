@@ -7,8 +7,8 @@ export default function calcGame() {
     const number2 = Math.floor(Math.random() * 100);
     const operations = ['+', '-', '*'];
     const operation = operations[Math.floor(Math.random() * operations.length)];
-    const formula = number1 + operation + number2;
-    const result = Math.eval(formula);
+    let formula = number1 + operation + number2;
+    let result = Function("return " + formula)();
     console.log(`Question: ${number1} ${operation} ${number2}`);
     const answer = Number(readlineSync.question('Your answer: '));
     if (answer === result) {
