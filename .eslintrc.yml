@@ -10,6 +10,7 @@ parserOptions:
 plugins:
   - react
 rules: {
-  import/extensions: [0, { <js>: "always" }]
+  import/extensions: [0, { <js>: "always" }],
+  'no-console': 'off'
 }
 

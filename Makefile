@@ -1,17 +1,17 @@
 install:
 	npm ci
 
-brain-games: 
+brain-games: # launch brain games
 	node bin/brain-games.js
-brain-even: # Answer "yes" if the number is even, otherwise answer "no"
+brain-even: # launch brain even
 	node bin/brain-even.js
-brain-calc: # What is the result of the expression?
+brain-calc: # launch brain calc
 	node bin/brain-calc.js
-brain-gcd: # Find the greatest common divisor of given numbers.
+brain-gcd: # launch brain gcd
 	node bin/brain-gcd.js
-brain-progression: # What number is missing in the progression
+brain-progression: # launch brain progressiom
 	node bin/brain-progression.js
-brain-prime: # Answer "yes" if given number is prime. Otherwise answer "no".
+brain-prime: # launch brain prime
 	node bin/brain-prime.js
 
 publish: 
