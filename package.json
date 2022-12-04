@@ -7,7 +7,7 @@
     "readline-sync": "^1.4.10"
   },
   "name": "@hexlet/code",
-  "description": "Project includes 5 games on javasript",
+  "description": "[![Actions Status](https://github.com/Tema19/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Tema19/fullstack-javascript-project-44/actions)",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
