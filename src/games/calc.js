@@ -5,10 +5,10 @@ import randomInteger from '../utils/randomNumber.js';
 export default function calcGame() {
   console.log('What is the result of the expression?');
   for (let i = 0; i < 3; i += 1) {
-    const number1 = randomInteger(1,15);
-    const number2 = randomInteger(1,15);
+    const number1 = randomInteger(1, 15);
+    const number2 = randomInteger(1, 15);
     const operations = ['+', '-', '*'];
-    const operation = operations[randomInteger(0,2)];
+    const operation = operations[randomInteger(0, 2)];
     const result = calculate(number1, number2, operation);
     console.log(`Question: ${number1} ${operation} ${number2}`);
     const answer = Number(readlineSync.question('Your answer: '));
