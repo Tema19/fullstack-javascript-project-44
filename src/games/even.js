@@ -1,9 +1,10 @@
 import readlineSync from 'readline-sync';
+import randomInteger from '../utils/randomNumber.js';
 
 export default function evenGame() {
   console.log('Answer "yes" if the number is even, otherwise answer "no":');
   for (let i = 0; i < 3; i += 1) {
-    const number = Math.floor(Math.random() * 100);
+    const number = randomInteger(1,15);
     console.log(`Question: ${number}`);
     const answer = readlineSync.question('Your answer: ');
     if (((answer === 'yes') && (number % 2 === 0)) || ((answer === 'no') && (number % 2 === 1))) {
