@@ -23,7 +23,7 @@ This project includes five games made on javascript. All games have individual g
 `npm install brain-prime`
 
 ## Brain-even example of work:  
-[![asciicast](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0.svg)](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0)
+https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0
 
 ## Brain-calc example of work: 
 [![asciicast](https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im.svg)](https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im)
