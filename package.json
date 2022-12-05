@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "brain-even": "^1.0.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "node.js": "^0.0.1-security",
@@ -10,7 +9,6 @@
   "description": "Project includes 5 games on javasript",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
