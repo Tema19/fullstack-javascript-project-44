@@ -23,16 +23,16 @@ This project includes five games made on javascript. All games have individual g
 `npm install brain-prime`
 
 ## Brain-even example of work:  
-<script id="asciicast-YfohYaQi0OdgXhLuFVkw1IXk0" src="https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0.js" async></script>
+[![asciicast](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0.svg)](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0)
 
 ## Brain-calc example of work: 
-<script id="asciicast-mouRUCeXajHLoecEZO1sCV9im" src="https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im.js" async></script>
+[![asciicast](https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im.svg)](https://asciinema.org/a/mouRUCeXajHLoecEZO1sCV9im)
 
 ## Brain-gcd example of work:  
-<script id="asciicast-WZ09ZCVaqSTr2Z8A6k2CblbwS" src="https://asciinema.org/a/WZ09ZCVaqSTr2Z8A6k2CblbwS.js" async></script>
+[![asciicast](https://asciinema.org/a/WZ09ZCVaqSTr2Z8A6k2CblbwS.svg)](https://asciinema.org/a/WZ09ZCVaqSTr2Z8A6k2CblbwS)
 
 ## Brain-progression example of work: 
-<script id="asciicast-fhqZz9H8FWJ9zLIxCxB4zhCoA" src="https://asciinema.org/a/fhqZz9H8FWJ9zLIxCxB4zhCoA.js" async></script>
+[![asciicast](https://asciinema.org/a/fhqZz9H8FWJ9zLIxCxB4zhCoA.svg)](https://asciinema.org/a/fhqZz9H8FWJ9zLIxCxB4zhCoA)
 
 ## Brain-prime example of work:
-<script id="asciicast-YbbQ1BjZLuMGlQc0nbhadNj6I" src="https://asciinema.org/a/YbbQ1BjZLuMGlQc0nbhadNj6I.js" async></script>
+[![asciicast](https://asciinema.org/a/YbbQ1BjZLuMGlQc0nbhadNj6I.svg)](https://asciinema.org/a/YbbQ1BjZLuMGlQc0nbhadNj6I)
