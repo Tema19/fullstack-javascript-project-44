@@ -16,11 +16,8 @@ This project includes five games made on javascript. All games have individual g
 
 ## Install
 
-`npm install brain-even`
-`npm install brain-calc`
-`npm install brain-progression`
-`npm install brain-gcd`
-`npm install brain-prime`
+`git clone https://github.com/Tema19/fullstack-javascript-project-44`
+`make install`
 
 ## Brain-even example of work:  
 [![asciicast](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0.svg)](https://asciinema.org/a/YfohYaQi0OdgXhLuFVkw1IXk0)
