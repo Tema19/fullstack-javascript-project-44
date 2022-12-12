@@ -1,17 +1,17 @@
 install:
 	npm ci
 
-brain-games: # launch brain games
+brain-games:
 	node bin/brain-games.js
-brain-even: # launch brain even
+brain-even:
 	node bin/brain-even.js
-brain-calc: # launch brain calc
+brain-calc:
 	node bin/brain-calc.js
-brain-gcd: # launch brain gcd
+brain-gcd:
 	node bin/brain-gcd.js
-brain-progression: # launch brain progressiom
+brain-progression:
 	node bin/brain-progression.js
-brain-prime: # launch brain prime
+brain-prime:
 	node bin/brain-prime.js
 
 publish: 
