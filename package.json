@@ -1,16 +1,16 @@
 {
-  "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "node.js": "^0.0.1-security",
-    "readline-sync": "^1.4.10"
-  },
   "name": "@hexlet/code",
   "description": "Project includes 5 games on javasript",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "node.js": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
   },
   "repository": {
     "type": "git",
