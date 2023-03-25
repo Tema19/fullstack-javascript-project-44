@@ -13,8 +13,10 @@ const engine = (gameRules, generateRound) => {
           console.log('Correct!');
         } else {
           console.log(`'${answer}'`, 'is wrong answer ;(. Correct answer was', `'${result}'`, '.');
-          return console.log(`Let's try again, ${name}!`);
+          console.log(`Let's try again, ${name}!`);
+          return 
         }
-        return console.log(`Congratulations, ${name}!`);
+        console.log(`Congratulations, ${name}!`);
+        return 
     } 
 }
