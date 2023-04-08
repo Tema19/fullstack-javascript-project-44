@@ -1,23 +1,25 @@
-import readlineSync from 'readline-sync';
-import calculate from '../utils/calculate.js';
-import randomInteger from '../utils/randomNumber.js';
+import getRandomInRange from '../utils/randomInRange.js';
+import engine from '../index.js';
 
-export default function calcGame() {
-  console.log('What is the result of the expression?');
-  for (let i = 0; i < 3; i += 1) {
-    const number1 = randomInteger(1, 15);
-    const number2 = randomInteger(1, 15);
-    const operations = ['+', '-', '*'];
-    const operation = operations[randomInteger(0, 2)];
-    const result = calculate(number1, number2, operation);
-    console.log(`Question: ${number1} ${operation} ${number2}`);
-    const answer = Number(readlineSync.question('Your answer: '));
-    if (answer === result) {
-      console.log('Correct!');
-    } else {
-      console.log(`'${answer}'`, 'is wrong answer ;(. Correct answer was', `'${result}'`, '.');
-      return false;
-    }
+const rules = 'What is the result of the expression?';
+const getRandomOperator = () => { const operators = ['+', '-', '*']; return operators[getRandomInRange(0, operators.length - 1)]; };
+const calculation = (num1, num2, operator) => {
+  switch (operator) {
+    case '+': return num1 + num2;
+    case '-': return num1 - num2;
+    case '*': return num1 * num2;
+    default: throw new Error(`Operator ${operator} - is incorrect!`);
   }
-  return true;
-}
+};
+
+const generateRound = () => {
+  const num1 = getRandomInRange(0, 100);
+  const num2 = getRandomInRange(0, 100);
+  const operator = getRandomOperator();
+  const question = `${num1} ${operator} ${num2}`;
+  const answer = String(calculation(num1, num2, operator));
+  return [question, answer];
+};
+
+const runCalcGame = () => engine(rules, generateRound);
+export default runCalcGame;
