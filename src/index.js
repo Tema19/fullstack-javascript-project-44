@@ -8,7 +8,7 @@ const engine = (gameRules, generateRound) => {
   console.log(gameRules);
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, result] = generateRound();
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === result) {
       console.log('Correct!');
