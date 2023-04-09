@@ -2,7 +2,7 @@ import getRandomInRange from '../utils/randomInRange.js';
 import engine from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no":';
-const calculation = (number) => { return (number % 2 === 0) ? 'yes' : 'no'; };
+const calculation = (number) => ((number % 2 === 0) ? 'yes' : 'no');
 
 const generateRound = () => {
   const num = getRandomInRange(0, 100);
