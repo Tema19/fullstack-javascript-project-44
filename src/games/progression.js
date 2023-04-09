@@ -8,7 +8,7 @@ const generateRound = () => {
   const hideArrProgt = [...arrProgr];
   const ind = getRandomInRange(0, 6);
   hideArrProgt[ind] = '..';
-  const question = `${hideArrProgt}`;
+  const question = `${hideArrProgt.join(' ')}`;
   const answer = String(arrProgr[ind]);
   return [question, answer];
 };
