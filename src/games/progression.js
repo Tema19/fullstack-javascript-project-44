@@ -15,7 +15,7 @@ function generateRound() {
   const randomStep = getRandomInRange(2, 150);
   const progression = generateProgression(randomStart, randomStep, 6);
   const progressinWithHideSymbol = [...progression];
-  const indexOfHideSymbol = getRandomInRange(0, 6);
+  const indexOfHideSymbol = getRandomInRange(0, 5);
   progressinWithHideSymbol[indexOfHideSymbol] = '..';
   const question = `${progressinWithHideSymbol.join(' ')}`;
   const answer = String(progression[indexOfHideSymbol]);
