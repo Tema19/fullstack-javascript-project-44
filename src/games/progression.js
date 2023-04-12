@@ -1,17 +1,26 @@
 import getRandomInRange from '../utils/randomInRange.js';
 import engine from '../index.js';
-import progression from '../utils/progression.js';
+
+const generateProgression = (start, step, length) => {
+  const progression = [];
+  for (let i = 0; i < length; i += 1) {
+    progression.push(start + step * i);
+  }
+  return progression;
+};
 
 const rules = 'What number is missing in the progression?';
-const generateRound = () => {
-  const arrProgr = progression();
-  const hideArrProgt = [...arrProgr];
-  const ind = getRandomInRange(0, 6);
-  hideArrProgt[ind] = '..';
-  const question = `${hideArrProgt.join(' ')}`;
-  const answer = String(arrProgr[ind]);
+function generateRound() {
+  const randomStart = getRandomInRange(2, 50);
+  const randomStep = getRandomInRange(2, 150);
+  const progression = generateProgression(randomStart, randomStep, 6);
+  const progressinWithHideSymbol = [...progression];
+  const indexOfHideSymbol = getRandomInRange(0, 6);
+  progressinWithHideSymbol[indexOfHideSymbol] = '..';
+  const question = `${progressinWithHideSymbol.join(' ')}`;
+  const answer = String(progression[indexOfHideSymbol]);
   return [question, answer];
-};
+}
 
 const runProgressionGame = () => engine(rules, generateRound);
 export default runProgressionGame;
